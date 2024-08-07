@@ -136,7 +136,7 @@ const getUserProfile = async (req, res) => {
     return res.status(200).json({
       message: "User found successfully",
       user: user,
-      image: `${process.env.URL}profilepic/${user.image}`,
+      image: `https://ecomease-oaar.onrender.com/profilepic/${user.image}`,
     });
   } catch (error) {
     if (error.name === "TokenExpiredError") {

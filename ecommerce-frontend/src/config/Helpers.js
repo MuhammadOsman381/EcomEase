@@ -4,9 +4,9 @@ import "notyf/notyf.min.css";
 class Helpers {
   // Uncomment and configure these if needed
   static localhost = 'localhost:8000';
-  static server = 'https://ecomease.onrender.com';
-  static basePath = `http://${this.server}`;
-  static apiUrl = `https://ecomease.onrender.com/api/`;
+  // static server = '13.60.28.134:3001';
+  static basePath = `http://${this.localhost}`;
+  static apiUrl = `https://ecomease-oaar.onrender.com/api/`;
 
 
 

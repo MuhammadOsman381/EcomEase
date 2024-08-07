@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 // Set up CORS options
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://ecomease-oaar.onrender.com/",
   credentials: true,
 };
 
